@@ -37,3 +37,7 @@ function removeElementFromBeginningOfArray(arr) {
   copy.shift();
   return copy;
 }
+
+function destructivelyRemoveElementFromEndOfArray(arr) {
+  arr.
+}
