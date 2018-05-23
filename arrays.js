@@ -32,3 +32,7 @@ function destructivelyRemoveElementFromBeginningOfArray(arr) {
   return arr;
 }
 
+function removeElementFromBeginningOfArray(arr) {
+  var copy = [...arr];
+  copy.shift()
+}
